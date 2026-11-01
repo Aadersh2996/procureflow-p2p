@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+
+# Frontend build and dependencies
+node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/test-results/
+frontend/playwright-report/
+*.tsbuildinfo
+
+# Local logs and IDE state
+.logs/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Browser/video capture working files and local workspace artifacts
+artifacts/
+
+# Local agent instructions and planning notes
+/.agents/
+/AGENTS.md
+/DECISIONS.md
+/GOALS.md
+/IMPLEMENTATION_STATUS.md
+/PLANS.md
+/TEST_MATRIX.md
+/docs/TOOLING_AND_SKILLS.md
+/frontend/scripts/record-demo.mjs
+/frontend/src/assets/hero.png
+/frontend/src/assets/react.svg
+/frontend/src/assets/vite.svg
