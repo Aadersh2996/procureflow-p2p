@@ -19,7 +19,7 @@ Mako==1.4.3
 MarkupSafe==3.0.4
 packaging==26.3
 pluggy==1.7.0
-pydantic==2.12.3
+pydantic==2.14.1
 pydantic_core==2.41.4
 Pygments==2.21.0
 pytest==8.4.2
